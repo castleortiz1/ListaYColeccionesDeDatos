@@ -1,6 +1,6 @@
 package com.aluracursos.listcolectdate.screenmatch.modelos;
 
-public class Titulo {
+public class Titulo implements Comparable<Titulo>{
     // atributos
     private String nombre;
     private int fechaDeLanzamiento;
@@ -72,4 +72,8 @@ public class Titulo {
         return "Titulo: " + nombre + " (" + fechaDeLanzamiento + ")";
     }
 
+    @Override
+    public int compareTo(Titulo otroTitulo) {
+        return this.getNombre().compareTo(otroTitulo.getNombre());
+    }
 }

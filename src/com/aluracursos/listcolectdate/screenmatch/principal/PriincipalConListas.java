@@ -2,7 +2,8 @@ package com.aluracursos.listcolectdate.screenmatch.principal;
 import com.aluracursos.listcolectdate.screenmatch.modelos.Pelicula;
 import com.aluracursos.listcolectdate.screenmatch.modelos.Serie;
 import com.aluracursos.listcolectdate.screenmatch.modelos.Titulo;
-import java.util.ArrayList;
+
+import java.util.*;
 
 public class PriincipalConListas {
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class PriincipalConListas {
         peliculaDeBruno.evalua(10);
         Serie lost = new Serie("Lost", 2000);
 
-        ArrayList<Titulo> lista = new ArrayList<>();
+        List<Titulo> lista = new LinkedList<>();
         lista.add(miPelicula);
         lista.add(otraPelicula);
         lista.add(peliculaDeBruno);
@@ -28,5 +29,21 @@ public class PriincipalConListas {
             }
 
         }
+
+        ArrayList<String> listaDeArtistas = new ArrayList<>();
+        listaDeArtistas.add("Jennifer Lawrence");
+        listaDeArtistas.add("Christopher Nolan");
+        listaDeArtistas.add("Antonio Banderas");
+        System.out.println(listaDeArtistas);
+
+        Collections.sort(listaDeArtistas);
+        System.out.println("Lista de artistas ordenada: " + listaDeArtistas);
+
+        Collections.sort(lista);
+        System.out.println("Lista de titulos ordenadas: " + lista);
+
+        lista.sort(Comparator.comparing(Titulo::getFechaDeLanzamiento));
+        System.out.println("Lista ordenanda por fechas: " + lista);
+
     }
 }
