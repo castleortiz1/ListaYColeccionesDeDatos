@@ -7,9 +7,7 @@ import java.io.Serial;
 
 public class Titulo implements Comparable<Titulo>{
     // atributos
-    @SerializedName("Title")
     private String nombre;
-    @SerializedName("Year")
     private int fechaDeLanzamiento;
     private boolean incluidoEnElPlan;
     private double sumaDeLasEvaluaciones;
@@ -110,5 +108,13 @@ public class Titulo implements Comparable<Titulo>{
         return "nombre='" + nombre + '\'' +
                 ", fechaDeLanzamiento=" + fechaDeLanzamiento +
                 ", duracion=" + duracionEnMinutos;
+
+//        @Override
+//        public String toString() {
+//            return "(nombre=" + nombre +
+//                    ", fechaDeLanzamiento=" + fechaDeLanzamiento +
+//                    ", duracion=" + duracionEnMinutos + ")";
+//        }
+//    }
     }
 }
