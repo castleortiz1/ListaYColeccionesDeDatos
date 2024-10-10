@@ -23,8 +23,22 @@ public class Titulo implements Comparable<Titulo>{
     public Titulo(TituloOmdb miTituloOmdb) {
         this.nombre = miTituloOmdb.title();
         this.fechaDeLanzamiento = Integer.valueOf(miTituloOmdb.year());
-        this.duracionEnMinutos = Integer.valueOf(miTituloOmdb.runtime().substring(0, 2));
+//        this.duracionEnMinutos = Integer.valueOf(miTituloOmdb.runtime().substring(0, 2));
+        // Corregir la extracción de la duración
+        this.duracionEnMinutos = extraerDuracion(miTituloOmdb.runtime());
 
+    }
+
+    private int extraerDuracion(String runtime) {
+        if (runtime == null || runtime.isEmpty()) {
+            return 0;
+        }
+        String[] parts = runtime.split(" ");
+        try {
+            return Integer.parseInt(parts[0]);
+        } catch (NumberFormatException e) {
+            return 0;
+        }
     }
 
     public String getNombre() {

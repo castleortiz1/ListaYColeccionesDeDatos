@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ceeecd56-c770-49b1-bcb6-3c9a24d2013b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/principal/PrincipalConBusqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/principal/PrincipalConBusquedaFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/principal/PrincipalConBusquedaFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/principal/PrincipioConBusquedaThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screen-match-three.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screen-match-three.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/modelos/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/modelos/TituloOmdb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/modelos/TituloOmdb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/principal/PrincipalConBusqueda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/aluracursos/listcolectdate/screenmatch/principal/PrincipalConBusqueda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,6 +82,11 @@
     "Application.PriincipalConListas.executor": "Run",
     "Application.Principal.executor": "Run",
     "Application.PrincipalConBusqueda.executor": "Run",
+    "Application.PrincipalConBusquedaFive.executor": "Run",
+    "Application.PrincipalConBusquedaFour.executor": "Run",
+    "Application.PrincipalConBusquedaOne.executor": "Run",
+    "Application.PrincipalConBusquedaTwo.executor": "Run",
+    "Application.PrincipioConBusquedaThree.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -87,12 +94,65 @@
     "last_opened_file_path": "C:/Users/jonathan/Desktop/TodoSobreBaseDeDatos/gson-2.11.0.jar",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PrincipalConBusqueda">
     <configuration name="PrincipalConBusqueda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.aluracursos.listcolectdate.screenmatch.principal.PrincipalConBusqueda" />
+      <module name="screen-match-three" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aluracursos.listcolectdate.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalConBusquedaFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aluracursos.listcolectdate.screenmatch.principal.PrincipalConBusquedaFive" />
+      <module name="screen-match-three" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aluracursos.listcolectdate.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalConBusquedaFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aluracursos.listcolectdate.screenmatch.principal.PrincipalConBusquedaFour" />
+      <module name="screen-match-three" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aluracursos.listcolectdate.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalConBusquedaTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aluracursos.listcolectdate.screenmatch.principal.PrincipalConBusquedaTwo" />
+      <module name="screen-match-three" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.aluracursos.listcolectdate.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipioConBusquedaThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.aluracursos.listcolectdate.screenmatch.principal.PrincipioConBusquedaThree" />
       <module name="screen-match-three" />
       <extension name="coverage">
         <pattern>
@@ -107,6 +167,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PrincipalConBusqueda" />
+        <item itemvalue="Application.PrincipalConBusquedaFour" />
+        <item itemvalue="Application.PrincipioConBusquedaThree" />
+        <item itemvalue="Application.PrincipalConBusquedaFive" />
+        <item itemvalue="Application.PrincipalConBusquedaTwo" />
       </list>
     </recent_temporary>
   </component>
